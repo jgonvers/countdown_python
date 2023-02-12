@@ -128,7 +128,8 @@ fill the screen
 ```
 if __name__ == "__main__":
     countdown = Countdown()
-    print("\n")  # generate the second line for the string
+    print(2*"\n")  # generate the second line for the string
+    empty_screen(1)
     while True:
         print_screen()
         if not is_running:
